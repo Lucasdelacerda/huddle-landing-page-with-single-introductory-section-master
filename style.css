@@ -1,9 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
+body {
+  background: hsl(257, 40%, 49%) url(./images/bg-desktop.svg);;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 3.47%;
+
+  #right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    justify-content: left;
+    align-items: center;
+
+    button {
+      width: 13.89%;
+      height: 4.17%;
+      border-radius: 20%;
+      background-color: white;
+      box-shadow: 0 0 2px 3px;
+    }
   }
 
-  .attribution a {
-    color: hsl(228, 45%, 44%);
+  #left {
+    width: 50%;
   }
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+
+  img {
+    cursor: pointer;
+  }
+}
